@@ -7,6 +7,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var userId = "john";
+var password = "doe";
+
+Console.WriteLine($"{userId} - {password}");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
