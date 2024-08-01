@@ -19,4 +19,4 @@ COPY --from=build-env /app/out .
 EXPOSE 8443
 
 # Set the entry point for the container to run the application
-ENTRYPOINT ["dotnet", "YourProjectName.dll"]
+ENTRYPOINT ["dotnet", "TodoApiTest.dll"]
