@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Docker
-      run: docker build . -f Dockerfile -t todoapi:latest
+      run: dir
